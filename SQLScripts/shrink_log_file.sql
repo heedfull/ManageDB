@@ -1,0 +1,5 @@
+use HEATSM_2014_2_1_RTBF;
+GO
+
+DBCC SHRINKFILE (2, 0); -- FileId 2, TargetSize 0
+GO
